@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d418bc9fd7a0446bce4558d4e5b3bf, type: 3}
+  m_Name: Queen
+  m_EditorClassIdentifier: Assembly-CSharp::OptionalItemData
+  mItemType: 9
+  mItemName: "\uC5EC\uC655 \uACC4\uC57D"
+  mDescription: "\uBE44\uC20D \uB610\uB294 \uB8E9\uC744 \uD038\uC73C\uB85C \uD504\uB85C\uBAA8\uC158
+    \uD569\uB2C8\uB2E4"
+  mIcon: {fileID: -8641742439048142405, guid: e094f81b873d4e545ac154f00a6eb2c3, type: 3}
+  mHoverIcon: {fileID: 6831445584368797446, guid: 621812601d8fabe4a88b93b7a2461106, type: 3}
+  buyPrice: 8
+  mSpawnPoint: 10

@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 6465d5f4218496e429eda21850539b3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5805313316051341262
+    second: Bishop_B_attack-Sheet_0
+  - first:
+      213: 5497694329947853174
+    second: Bishop_B_attack-Sheet_1
+  - first:
+      213: 2567985076010491091
+    second: Bishop_B_attack-Sheet_2
+  - first:
+      213: 495881292435460763
+    second: Bishop_B_attack-Sheet_3
+  - first:
+      213: -4129625553326813010
+    second: Bishop_B_attack-Sheet_4
+  - first:
+      213: 3307002193314036210
+    second: Bishop_B_attack-Sheet_5
+  - first:
+      213: 4975995705205282428
+    second: Bishop_B_attack-Sheet_6
+  - first:
+      213: -3140954850345657567
+    second: Bishop_B_attack-Sheet_7
+  - first:
+      213: 4181959323549311780
+    second: Bishop_B_attack-Sheet_8
+  - first:
+      213: -6727180137164354971
+    second: Bishop_B_attack-Sheet_9
+  - first:
+      213: 127473242413217022
+    second: Bishop_B_attack-Sheet_10
+  - first:
+      213: -5124574937798722951
+    second: Bishop_B_attack-Sheet_11
+  - first:
+      213: 6775038042870770222
+    second: Bishop_B_attack-Sheet_12
+  - first:
+      213: -5435708567558239027
+    second: Bishop_B_attack-Sheet_13
+  - first:
+      213: 7716359194348939450
+    second: Bishop_B_attack-Sheet_14
+  - first:
+      213: 5243653779790758262
+    second: Bishop_B_attack-Sheet_15
+  - first:
+      213: -6583241192247435737
+    second: Bishop_B_attack-Sheet_16
+  - first:
+      213: -5312612595329112192
+    second: Bishop_B_attack-Sheet_17
+  - first:
+      213: 8906508779106431294
+    second: Bishop_B_attack-Sheet_18
+  - first:
+      213: -734797077231363716
+    second: Bishop_B_attack-Sheet_19
+  - first:
+      213: 826573028858310250
+    second: Bishop_B_attack-Sheet_20
+  - first:
+      213: -1827371176897152847
+    second: Bishop_B_attack-Sheet_21
+  - first:
+      213: -6512222447891455877
+    second: Bishop_B_attack-Sheet_22
+  - first:
+      213: 7111624061728347890
+    second: Bishop_B_attack-Sheet_23
+  - first:
+      213: -6115754410176198993
+    second: Bishop_B_attack-Sheet_24
+  - first:
+      213: 6061341187865743578
+    second: Bishop_B_attack-Sheet_25
+  - first:
+      213: -7366299150557150587
+    second: Bishop_B_attack-Sheet_26
+  - first:
+      213: 5521297819068852044
+    second: Bishop_B_attack-Sheet_27
+  - first:
+      213: -3575523682726147461
+    second: Bishop_B_attack-Sheet_28
+  - first:
+      213: -6535953783775711573
+    second: Bishop_B_attack-Sheet_29
+  - first:
+      213: 4343011216789838918
+    second: Bishop_B_attack-Sheet_30
+  - first:
+      213: -8696943152486085625
+    second: Bishop_B_attack-Sheet_31
+  - first:
+      213: -2509213457283739798
+    second: Bishop_B_attack-Sheet_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfc51df3bd909050800000000000000
+      internalID: 5805313316051341262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67198347ddbbb4c40800000000000000
+      internalID: 5497694329947853174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc1c1422d053a320800000000000000
+      internalID: 2567985076010491091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92906e7869b1e600800000000000000
+      internalID: 495881292435460763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0549e507f90b6c0800000000000000
+      internalID: -4129625553326813010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9bbeb39f4d4ed20800000000000000
+      internalID: 3307002193314036210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7651acdab94e0540800000000000000
+      internalID: 4975995705205282428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b5b9184361964d0800000000000000
+      internalID: -3140954850345657567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4232a4909dd490a30800000000000000
+      internalID: 4181959323549311780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_B_attack-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a4140be4144a2a0800000000000000
+      internalID: -6727180137164354971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e42da374f56a2bc4b8c7a95ea869222b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":1.0},"gridSpriteSize":{"x":168.0,"y":316.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.25},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Bishop_B_attack-Sheet_0: 5805313316051341262
+      Bishop_B_attack-Sheet_1: 5497694329947853174
+      Bishop_B_attack-Sheet_2: 2567985076010491091
+      Bishop_B_attack-Sheet_3: 495881292435460763
+      Bishop_B_attack-Sheet_4: -4129625553326813010
+      Bishop_B_attack-Sheet_5: 3307002193314036210
+      Bishop_B_attack-Sheet_6: 4975995705205282428
+      Bishop_B_attack-Sheet_7: -3140954850345657567
+      Bishop_B_attack-Sheet_8: 4181959323549311780
+      Bishop_B_attack-Sheet_9: -6727180137164354971
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

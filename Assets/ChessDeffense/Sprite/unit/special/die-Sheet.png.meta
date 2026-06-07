@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: ead29946826ffc24f93650e45caf6490
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8433761397239047876
+    second: die-Sheet_0
+  - first:
+      213: -329652870655720472
+    second: die-Sheet_1
+  - first:
+      213: 5780007016189688403
+    second: die-Sheet_2
+  - first:
+      213: -5587614998259355728
+    second: die-Sheet_3
+  - first:
+      213: -5073522454201802546
+    second: die-Sheet_4
+  - first:
+      213: -3042528274640092096
+    second: die-Sheet_5
+  - first:
+      213: 55443764036885711
+    second: die-Sheet_6
+  - first:
+      213: 6526289674985473637
+    second: die-Sheet_7
+  - first:
+      213: -8809810106713917886
+    second: die-Sheet_8
+  - first:
+      213: -73969405822113311
+    second: die-Sheet_9
+  - first:
+      213: -4802679136061651369
+    second: die-Sheet_10
+  - first:
+      213: -5582675367631232653
+    second: die-Sheet_11
+  - first:
+      213: 4310504092433053681
+    second: die-Sheet_12
+  - first:
+      213: 6022269353328082479
+    second: die-Sheet_13
+  - first:
+      213: 1200425434539359030
+    second: die-Sheet_14
+  - first:
+      213: -5147951772325967150
+    second: die-Sheet_15
+  - first:
+      213: 2171173391346426658
+    second: die-Sheet_16
+  - first:
+      213: 3535628095779388768
+    second: die-Sheet_17
+  - first:
+      213: 5198694511324062055
+    second: die-Sheet_18
+  - first:
+      213: -2137363920219302383
+    second: die-Sheet_19
+  - first:
+      213: 5737987700952029643
+    second: die-Sheet_20
+  - first:
+      213: 2894115981429643393
+    second: die-Sheet_21
+  - first:
+      213: 3194705615807269237
+    second: die-Sheet_22
+  - first:
+      213: -697147188645024478
+    second: die-Sheet_23
+  - first:
+      213: -6761527935527804727
+    second: die-Sheet_24
+  - first:
+      213: -4312547364617406850
+    second: die-Sheet_25
+  - first:
+      213: 4143457972140860720
+    second: die-Sheet_26
+  - first:
+      213: -719920071579443198
+    second: die-Sheet_27
+  - first:
+      213: -7982236416590886775
+    second: die-Sheet_28
+  - first:
+      213: 6106046818055379854
+    second: die-Sheet_29
+  - first:
+      213: 8202816863767588816
+    second: die-Sheet_30
+  - first:
+      213: -8919014249128474313
+    second: die-Sheet_31
+  - first:
+      213: -5708678205491521348
+    second: die-Sheet_32
+  - first:
+      213: -4544852556474324012
+    second: die-Sheet_33
+  - first:
+      213: 1276918232131473994
+    second: die-Sheet_34
+  - first:
+      213: -4358708005925158080
+    second: die-Sheet_35
+  - first:
+      213: 6439945857023784550
+    second: die-Sheet_36
+  - first:
+      213: 4041750184174127291
+    second: die-Sheet_37
+  - first:
+      213: 3183525596844191179
+    second: die-Sheet_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: die-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c391a2571b245fa80800000000000000
+      internalID: -8433761397239047876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3c061f576dc6bf0800000000000000
+      internalID: -329652870655720472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a7047e1c5b63050800000000000000
+      internalID: 5780007016189688403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf2b1773cdc472b0800000000000000
+      internalID: -5587614998259355728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec06555653a3799b0800000000000000
+      internalID: -5073522454201802546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: die-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044cefa77a4c6c5d0800000000000000
+      internalID: -3042528274640092096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9d75c1ea53693f347ab34c3e5ee4ff4d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.25},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      die-Sheet_0: -8433761397239047876
+      die-Sheet_1: -329652870655720472
+      die-Sheet_2: 5780007016189688403
+      die-Sheet_3: -5587614998259355728
+      die-Sheet_4: -5073522454201802546
+      die-Sheet_5: -3042528274640092096
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

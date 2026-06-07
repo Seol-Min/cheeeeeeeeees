@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d418bc9fd7a0446bce4558d4e5b3bf, type: 3}
+  m_Name: Reward
+  m_EditorClassIdentifier: Assembly-CSharp::OptionalItemData
+  mItemType: 3
+  mItemName: "\uD604\uC0C1\uAE08"
+  mDescription: "Re~ward\uB97C \uBC1B\uC544\uC57C\uACA0~\uC9C0?"
+  mIcon: {fileID: -6423279886910153921, guid: 23fd8402a24a1504eb79c07a09dee3da, type: 3}
+  mHoverIcon: {fileID: 1143067462434962193, guid: e926b4f86ab380d44bc4fcdde0f7cdbd, type: 3}
+  buyPrice: 3
+  mSpawnPoint: 30

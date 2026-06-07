@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3f05aea9314b94eb5e892680dfc630, type: 3}
+  m_Name: Queen
+  m_EditorClassIdentifier: Assembly-CSharp::Unit
+  mType: 5
+  mWhiteSprite: {fileID: 4837049690483493345, guid: b29c397179ca27a42b283ad3a8acfe3e, type: 3}
+  mBlackSprite: {fileID: 6769621626118822890, guid: 34166b14b26cea54195816cc41b662d0, type: 3}
+  mBackgroundSprite: {fileID: 7721130882491581452, guid: b9fc54199e3c07d41a827ee98c3e6cc1, type: 3}
+  mMaxHp: 1
+  mSpeed: 1
+  mPower: 1
+  mMoveType: 0
+  mMoveOffsets:
+  - {x: 1, y: 0}
+  - {x: 0, y: 1}
+  - {x: -1, y: 0}
+  - {x: 0, y: -1}
+  - {x: 1, y: 1}
+  - {x: 1, y: -1}
+  - {x: -1, y: 1}
+  - {x: -1, y: -1}
+  mAttackOffsets: []
+  mCaptureGold: 5

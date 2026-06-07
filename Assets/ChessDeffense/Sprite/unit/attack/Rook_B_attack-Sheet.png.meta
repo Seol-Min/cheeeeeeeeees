@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 177f788d68d8cf14b88ac7fb8781dedf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8832461061944089836
+    second: Rook_B_attack-Sheet_0
+  - first:
+      213: 1739247219690772108
+    second: Rook_B_attack-Sheet_1
+  - first:
+      213: 4361097301222699547
+    second: Rook_B_attack-Sheet_2
+  - first:
+      213: 1463144232358095184
+    second: Rook_B_attack-Sheet_3
+  - first:
+      213: -4702222543058899935
+    second: Rook_B_attack-Sheet_4
+  - first:
+      213: 1729750060179934857
+    second: Rook_B_attack-Sheet_5
+  - first:
+      213: 5759723192455632796
+    second: Rook_B_attack-Sheet_6
+  - first:
+      213: -6226957416928479761
+    second: Rook_B_attack-Sheet_7
+  - first:
+      213: 8438670294156450636
+    second: Rook_B_attack-Sheet_8
+  - first:
+      213: 7150770164928306663
+    second: Rook_B_attack-Sheet_9
+  - first:
+      213: -8815186057187142095
+    second: Rook_B_attack-Sheet_10
+  - first:
+      213: 6096518874613108492
+    second: Rook_B_attack-Sheet_11
+  - first:
+      213: -1345696933864891907
+    second: Rook_B_attack-Sheet_12
+  - first:
+      213: 696379459244468734
+    second: Rook_B_attack-Sheet_13
+  - first:
+      213: -5458841513592664902
+    second: Rook_B_attack-Sheet_14
+  - first:
+      213: 155881499100093183
+    second: Rook_B_attack-Sheet_15
+  - first:
+      213: 5595663707402671973
+    second: Rook_B_attack-Sheet_16
+  - first:
+      213: -2656643516219423683
+    second: Rook_B_attack-Sheet_17
+  - first:
+      213: -6190567209170950132
+    second: Rook_B_attack-Sheet_18
+  - first:
+      213: -4791336525958097101
+    second: Rook_B_attack-Sheet_19
+  - first:
+      213: -7633710058297087106
+    second: Rook_B_attack-Sheet_20
+  - first:
+      213: 3812215020836039566
+    second: Rook_B_attack-Sheet_21
+  - first:
+      213: -4906768141209836737
+    second: Rook_B_attack-Sheet_22
+  - first:
+      213: -5503066259059708271
+    second: Rook_B_attack-Sheet_23
+  - first:
+      213: -8201210703114800401
+    second: Rook_B_attack-Sheet_24
+  - first:
+      213: 8146142201198059547
+    second: Rook_B_attack-Sheet_25
+  - first:
+      213: -9159079258585595268
+    second: Rook_B_attack-Sheet_26
+  - first:
+      213: -763772119833610891
+    second: Rook_B_attack-Sheet_27
+  - first:
+      213: -3900867311402513523
+    second: Rook_B_attack-Sheet_28
+  - first:
+      213: 2210897598972133400
+    second: Rook_B_attack-Sheet_29
+  - first:
+      213: -1391740895234690466
+    second: Rook_B_attack-Sheet_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4136a56e57bcc6580800000000000000
+      internalID: -8832461061944089836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c861142a12c032810800000000000000
+      internalID: 1739247219690772108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b123b4ea3eab58c30800000000000000
+      internalID: 4361097301222699547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059add06de12e4410800000000000000
+      internalID: 1463144232358095184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ce322b2895ebeb0800000000000000
+      internalID: -4702222543058899935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e4c3fd38e410810800000000000000
+      internalID: 1729750060179934857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9795ea2ab5aeef40800000000000000
+      internalID: 5759723192455632796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe57e7c98376599a0800000000000000
+      internalID: -6226957416928479761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b16db2ced2c1570800000000000000
+      internalID: 8438670294156450636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rook_B_attack-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed530f1493ac3360800000000000000
+      internalID: 7150770164928306663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2d2402050d4c9e54298ed8d7905bc270
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":1.0},"gridSpriteSize":{"x":168.0,"y":316.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.24500000476837159},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Rook_B_attack-Sheet_0: -8832461061944089836
+      Rook_B_attack-Sheet_1: 1739247219690772108
+      Rook_B_attack-Sheet_2: 4361097301222699547
+      Rook_B_attack-Sheet_3: 1463144232358095184
+      Rook_B_attack-Sheet_4: -4702222543058899935
+      Rook_B_attack-Sheet_5: 1729750060179934857
+      Rook_B_attack-Sheet_6: 5759723192455632796
+      Rook_B_attack-Sheet_7: -6226957416928479761
+      Rook_B_attack-Sheet_8: 8438670294156450636
+      Rook_B_attack-Sheet_9: 7150770164928306663
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

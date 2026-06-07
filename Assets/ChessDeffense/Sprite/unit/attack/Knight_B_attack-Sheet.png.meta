@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 81cfdc66ee0a6c24a893a0f574857d79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7387450343450057296
+    second: Knight_B_attack-Sheet_0
+  - first:
+      213: 2896404173166946688
+    second: Knight_B_attack-Sheet_1
+  - first:
+      213: -3096374651333462045
+    second: Knight_B_attack-Sheet_2
+  - first:
+      213: 6978404711968998885
+    second: Knight_B_attack-Sheet_3
+  - first:
+      213: 5719308097257199404
+    second: Knight_B_attack-Sheet_4
+  - first:
+      213: 2475738886187956923
+    second: Knight_B_attack-Sheet_5
+  - first:
+      213: 6826094885450738636
+    second: Knight_B_attack-Sheet_6
+  - first:
+      213: 2632345523800473985
+    second: Knight_B_attack-Sheet_7
+  - first:
+      213: 4433409391227219249
+    second: Knight_B_attack-Sheet_8
+  - first:
+      213: 8504605263877843915
+    second: Knight_B_attack-Sheet_9
+  - first:
+      213: -4360535909047026221
+    second: Knight_B_attack-Sheet_10
+  - first:
+      213: -8002304546514381510
+    second: Knight_B_attack-Sheet_11
+  - first:
+      213: -5769452079682408950
+    second: Knight_B_attack-Sheet_12
+  - first:
+      213: 2856318483509073181
+    second: Knight_B_attack-Sheet_13
+  - first:
+      213: 2584574202192921025
+    second: Knight_B_attack-Sheet_14
+  - first:
+      213: 8026456303220587073
+    second: Knight_B_attack-Sheet_15
+  - first:
+      213: 1765556991773121781
+    second: Knight_B_attack-Sheet_16
+  - first:
+      213: -6489314148217058535
+    second: Knight_B_attack-Sheet_17
+  - first:
+      213: -4479029278037676903
+    second: Knight_B_attack-Sheet_18
+  - first:
+      213: -1946568380717703872
+    second: Knight_B_attack-Sheet_19
+  - first:
+      213: -5725366333255138317
+    second: Knight_B_attack-Sheet_20
+  - first:
+      213: -4104089342491045682
+    second: Knight_B_attack-Sheet_21
+  - first:
+      213: -2103525745425671768
+    second: Knight_B_attack-Sheet_22
+  - first:
+      213: -3065342307050620644
+    second: Knight_B_attack-Sheet_23
+  - first:
+      213: 1180183794308282276
+    second: Knight_B_attack-Sheet_24
+  - first:
+      213: 7641970417565181921
+    second: Knight_B_attack-Sheet_25
+  - first:
+      213: 822014970691843725
+    second: Knight_B_attack-Sheet_26
+  - first:
+      213: 4064209048774283347
+    second: Knight_B_attack-Sheet_27
+  - first:
+      213: -7340760280206162304
+    second: Knight_B_attack-Sheet_28
+  - first:
+      213: -384884856593948087
+    second: Knight_B_attack-Sheet_29
+  - first:
+      213: -8668827419243723513
+    second: Knight_B_attack-Sheet_30
+  - first:
+      213: 8324236502384079928
+    second: Knight_B_attack-Sheet_31
+  - first:
+      213: 4000447684977349543
+    second: Knight_B_attack-Sheet_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b562d29d018a7990800000000000000
+      internalID: -7387450343450057296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089239bef38123820800000000000000
+      internalID: 2896404173166946688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7bebfe8a77705d0800000000000000
+      internalID: -3096374651333462045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e503d3cc1648d060800000000000000
+      internalID: 6978404711968998885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27d70a89601f5f40800000000000000
+      internalID: 5719308097257199404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbabad366679b5220800000000000000
+      internalID: 2475738886187956923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbe662d1292bbe50800000000000000
+      internalID: 6826094885450738636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1818730ae48f78420800000000000000
+      internalID: 2632345523800473985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13daaf32a52a68d30800000000000000
+      internalID: 4433409391227219249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_B_attack-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 168
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb2b5c9d6d660670800000000000000
+      internalID: 8504605263877843915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 28a7f09360688664ca499a8c879e5420
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":1.0},"gridSpriteSize":{"x":168.0,"y":316.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.2531200051307678},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Knight_B_attack-Sheet_0: -7387450343450057296
+      Knight_B_attack-Sheet_1: 2896404173166946688
+      Knight_B_attack-Sheet_2: -3096374651333462045
+      Knight_B_attack-Sheet_3: 6978404711968998885
+      Knight_B_attack-Sheet_4: 5719308097257199404
+      Knight_B_attack-Sheet_5: 2475738886187956923
+      Knight_B_attack-Sheet_6: 6826094885450738636
+      Knight_B_attack-Sheet_7: 2632345523800473985
+      Knight_B_attack-Sheet_8: 4433409391227219249
+      Knight_B_attack-Sheet_9: 8504605263877843915
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

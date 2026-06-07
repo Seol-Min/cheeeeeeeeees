@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d418bc9fd7a0446bce4558d4e5b3bf, type: 3}
+  m_Name: Back
+  m_EditorClassIdentifier: Assembly-CSharp::OptionalItemData
+  mItemType: 5
+  mItemName: "\uB418\uB3CC\uB9AC\uAE30"
+  mDescription: "\uC774\uC57C \uB0B4\uAC00 \uD55C \uC218\uB97C \uBB34\uB97C \uC218
+    \uC788\uB2E4"
+  mIcon: {fileID: 880675015264753942, guid: 4da48de9b95ab52428f9df9706c497e5, type: 3}
+  mHoverIcon: {fileID: 1204824922157844236, guid: c336cb87583206b49add4a0a42791011, type: 3}
+  buyPrice: 3
+  mSpawnPoint: 25

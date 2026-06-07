@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3f05aea9314b94eb5e892680dfc630, type: 3}
+  m_Name: Rook
+  m_EditorClassIdentifier: Assembly-CSharp::Unit
+  mType: 4
+  mWhiteSprite: {fileID: -8051307746929872594, guid: dea52632985555a44850f7b8ed3f21d2, type: 3}
+  mBlackSprite: {fileID: -1967220593998137843, guid: f42b9ec3ccffab244a54d20174eed2e9, type: 3}
+  mBackgroundSprite: {fileID: 992095856175448104, guid: b9fc54199e3c07d41a827ee98c3e6cc1, type: 3}
+  mMaxHp: 1
+  mSpeed: 1
+  mPower: 1
+  mMoveType: 0
+  mMoveOffsets:
+  - {x: 1, y: 0}
+  - {x: 0, y: 1}
+  - {x: -1, y: 0}
+  - {x: 0, y: -1}
+  mAttackOffsets: []
+  mCaptureGold: 4

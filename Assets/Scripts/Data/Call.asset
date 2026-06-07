@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877d15b9d1accf54781e2163f728e747, type: 3}
+  m_Name: Call
+  m_EditorClassIdentifier: Assembly-CSharp::InstantItemData
+  mItemType: 2
+  mItemName: "\uD3F0 \uC18C\uD658"
+  mDescription: "\uD3F0\uC774\uC5EC! \uC8FD\uB3C4\uB85D \uB2EC\uB9B4\uC2DC\uAC04\uC774\uB2E4!"
+  mIcon: {fileID: 6949704313775385855, guid: 799cd832dfe096d43a0128e62b1f7123, type: 3}
+  mHoverIcon: {fileID: 6897270853859083829, guid: 67d4bf46be0ba1e4a93c9746bdcb6854, type: 3}
+  buyPrice: 3
+  mSpawnPoint: 45
