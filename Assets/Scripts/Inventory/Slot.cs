@@ -47,11 +47,13 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         if (mItem == null) return;
         mItemImage.sprite = mItem.HoverIcon != null ? mItem.HoverIcon : mItem.Icon;
+        TooltipUI.Instance?.Show(mItem);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         if (mItem == null) return;
         mItemImage.sprite = mItem.Icon;
+        TooltipUI.Instance?.Hide();
     }
 }

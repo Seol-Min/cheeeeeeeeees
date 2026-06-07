@@ -135,7 +135,7 @@ public class Control : MonoBehaviour
                         else
                         {
                             isSummonMode = false;
-
+                            UpdateCheckState();
                             //if (isPlacingPhase)
                             //{
                             //    if (startPlaceCount < 2)

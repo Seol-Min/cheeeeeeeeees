@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 public class MainMenuManager : MonoBehaviour
 {
     public GameObject settingsPanel;
-
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip[] arrAudio;
     // check save file
     private bool hasSaveData;
 
@@ -12,13 +13,17 @@ public class MainMenuManager : MonoBehaviour
     {
         // active continue
         hasSaveData = PlayerPrefs.HasKey("SaveExists");
+        audioSource = GetComponent<AudioSource>();
         settingsPanel.SetActive(false);
     }
 
     public void OnStartButton()
     {
         // new game
+        audioSource.Stop();
         PlayerPrefs.SetInt("SaveExists", 1);
+        AudioClip audio = arrAudio[1];
+        audioSource.Play();
         SceneManager.LoadScene("GameScene");
     }
 
@@ -29,6 +34,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void OnQuitButton()
     {
+        AudioClip audio = arrAudio[0];
         Application.Quit();
         //UnityEditor.EditorApplication.isPlaying = false; // for editor
     }

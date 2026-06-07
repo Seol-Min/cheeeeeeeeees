@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::OptionalItemData
   mItemType: 9
   mItemName: "\uC5EC\uC655 \uACC4\uC57D"
-  mDescription: "\uBE44\uC20D \uB610\uB294 \uB8E9\uC744 \uD038\uC73C\uB85C \uD504\uB85C\uBAA8\uC158
-    \uD569\uB2C8\uB2E4"
+  mDescription: "\uC0AC\uC6A9 \uC2DC \uB0B4 \uBE44\uC20D\uACFC \uB8E9 \uC911 \uD558\uB098\uB97C
+    \uC120\uD0DD\uD569\uB2C8\uB2E4. \uC120\uD0DD\uB41C \uAE30\uBB3C\uC744 \uD038\uC73C\uB85C
+    \uD504\uB85C\uBAA8\uC158\uD569\uB2C8\uB2E4."
   mIcon: {fileID: -8641742439048142405, guid: e094f81b873d4e545ac154f00a6eb2c3, type: 3}
   mHoverIcon: {fileID: 6831445584368797446, guid: 621812601d8fabe4a88b93b7a2461106, type: 3}
   buyPrice: 8
