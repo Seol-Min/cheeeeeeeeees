@@ -21,7 +21,7 @@ public class Control : MonoBehaviour
     [SerializeField] private GameObject movePlate;
     [SerializeField] private GameObject gold;
     [SerializeField] private GameObject turnChanger;
-    [SerializeField] private GameObject pausePanel;
+    [SerializeField] public GameObject pausePanel;
     [SerializeField] private GameObject statePanel;
     [SerializeField] private Texture2D whiteCursor;
     [SerializeField] private Texture2D blackCursor;

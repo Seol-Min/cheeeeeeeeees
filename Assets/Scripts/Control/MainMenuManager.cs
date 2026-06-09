@@ -19,7 +19,8 @@ public class MainMenuManager : MonoBehaviour
         // new game
         SoundControl.Instance.PlaySound("Button");
         PlayerPrefs.SetInt("SaveExists", 1);
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Tutorial_Scene");
+        //SceneManager.LoadScene("GameScene");
     }
 
     public void OnSettingsButton()
@@ -37,6 +38,7 @@ public class MainMenuManager : MonoBehaviour
     public void OnContinueButton()
     {
         SoundControl.Instance.PlaySound("Button");
+        Control.Instance.pausePanel.SetActive(false);
     }
 
     public void OnExitButton()
