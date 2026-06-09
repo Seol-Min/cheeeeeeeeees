@@ -103,6 +103,7 @@ public class Control : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             pausePanel.SetActive(!IsPaused);
+            SoundControl.Instance.PlaySound("Esc");
         }
         if (IsGameOver) return;
         if (IsPaused) return;
@@ -224,7 +225,8 @@ public class Control : MonoBehaviour
                 {
                     if (MoveTo(currentlyDragging, target.x, target.y))
                     {
-                        moved = true;   
+                        moved = true;
+                        SoundControl.Instance.PlaySound("Move");
                         currentlyDragging.GetComponent<Animator>().SetTrigger("move");
 
                         PlayerGold nextGold = isWhiteTurn ? p1Gold : p2Gold;
@@ -235,6 +237,7 @@ public class Control : MonoBehaviour
             if (!moved)
             {
                 PositionSingle(currentlyDragging.currentX, currentlyDragging.currentY, false, currentlyDragging.previousPosition.x, currentlyDragging.previousPosition.y);
+                SoundControl.Instance.PlaySound("Move", -1, false);
             }
             currentlyDragging.SetScale(new Vector3(1f, 1f, 1f), true);
             currentlyDragging.GetComponent<Animator>().SetBool("isDragging", false);
@@ -504,6 +507,7 @@ public class Control : MonoBehaviour
             {
                 win = un.color;
                 string winText = win == 0 ? "백 팀 승리!" : "흑 팀 승리!";
+                SoundControl.Instance.PlaySound("Win");
                 StartCoroutine(WriteStateText(winText, 10f, true));
             }
 
@@ -524,12 +528,14 @@ public class Control : MonoBehaviour
         if (un.color == 0 && un.hasCrown && y == TILE_COUNT_Y - 1)
         {
             win = 0;
+            SoundControl.Instance.PlaySound("Win");
             StartCoroutine(WriteStateText("백 팀 승리!", 10f, true));
             return true;
         }
         else if (un.color == 1 && un.hasCrown && y == 0)
         {
             win = 1;
+            SoundControl.Instance.PlaySound("Win");
             StartCoroutine(WriteStateText("흑 팀 승리!", 10f, true));
             return true;
         }
@@ -564,6 +570,10 @@ public class Control : MonoBehaviour
         if (prom)
         {
             anim.SetTrigger("Promote");
+            if (type == UnitType.Queen)
+                SoundControl.Instance.PlaySound("Item", 8);
+            else
+                SoundControl.Instance.PlaySound("Item", 6);
         }
         else
         {

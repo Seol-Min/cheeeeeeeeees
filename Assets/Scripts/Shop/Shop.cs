@@ -38,6 +38,7 @@ public class Shop : MonoBehaviour
         if (currentGold.Gold < slot.Item.BuyPrice)
         {
             control.StartCoroutine(control.WriteStateText("골드가 부족합니다!"));
+            SoundControl.Instance.PlaySound("Click");
             return;
         }
 
@@ -45,11 +46,13 @@ public class Shop : MonoBehaviour
         if (slot.Item.ItemType != ItemType.Reroll && slot.Item.ItemType != ItemType.Call && inventory.IsFull())
         {
             control.StartCoroutine(control.WriteStateText("인벤토리가 가득 찼습니다!"));
+            SoundControl.Instance.PlaySound("Click");
             return;
         }
         if (slot.Item.ItemType == ItemType.Call && !Control.Instance.HasEmptyCallTile(control.isWhiteTurn))
         {
             control.StartCoroutine(control.WriteStateText("빈 타일이 없습니다!"));
+            SoundControl.Instance.PlaySound("Click");
             return;
         }
         if (slot.Item.ItemType == ItemType.Reroll || slot.Item.ItemType == ItemType.Call)
@@ -57,6 +60,7 @@ public class Shop : MonoBehaviour
         else
             inventory.GiveItem(slot.Item);
 
+        SoundControl.Instance.PlaySound("Buy");
         currentGold.SpendGold(slot.Item.BuyPrice);
         ReplaceSlot(slotIndex);
     }

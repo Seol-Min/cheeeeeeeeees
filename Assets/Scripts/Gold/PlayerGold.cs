@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 //using static UnityEditor.PlayerSettings; //for editor
 
@@ -13,12 +14,14 @@ public class PlayerGold : MonoBehaviour
     private Animator animator;
     private RectTransform rect;
     private Vector2 pos;
+    private AudioSource audioSource;
 
     private int mGold;
     public int Gold { get { return mGold; } }
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         rect = image.GetComponent<RectTransform>();
         pos = rect.anchoredPosition;
         animator = image.GetComponent<Animator>();
@@ -45,6 +48,7 @@ public class PlayerGold : MonoBehaviour
     public void AddGold(int amount)
     {
         animator.SetBool("earn", true);
+        audioSource.Play();
         StopAllCoroutines();
         StartCoroutine(CountMoney(amount));
         UpdateUI();
@@ -73,5 +77,6 @@ public class PlayerGold : MonoBehaviour
             yield return new WaitForSeconds(0.09f);
         }
         animator.SetBool("earn", false);
+        audioSource.Stop();
     }
 }

@@ -24,6 +24,7 @@ public class Inventory : MonoBehaviour
         if (slot.Item == null) return;
 
         ItemData item = slot.Item;
+        TooltipUI.Instance?.Hide();
         slot.ClearSlot();
         item.Use(control.isWhiteTurn, this, slotIndex);
     }
@@ -39,6 +40,7 @@ public class Inventory : MonoBehaviour
     public void ReturnItem(ItemData item, int slotIndex)
     {
         slots[slotIndex].AddItem(item);
+        SoundControl.Instance.PlaySound("Click");
     }
 
     public bool IsFull() => slots.TrueForAll(s => s.Item != null);

@@ -16,7 +16,7 @@ public class OptionalItemData : ItemData
                     inventory?.ReturnItem(this, slotIndex);
                     return;
                 }
-                Control.Instance.onTargetSelected = (target) => { target.bonusCaptureGold += 2; target.UpdateState(); };
+                Control.Instance.onTargetSelected = (target) => { target.bonusCaptureGold += 2; target.UpdateState(); SoundControl.Instance.PlaySound("Item", 2); };
                 Control.Instance.TargetItem(isWhiteTurn, true, new List<UnitType> { UnitType.Pawn, UnitType.Knight, UnitType.Bishop, UnitType.Rook, UnitType.Queen }, false, u => !(u.bonusCaptureGold > 0 || u.poop), this, slotIndex, inventory);
                 break;
 
@@ -27,7 +27,7 @@ public class OptionalItemData : ItemData
                     inventory?.ReturnItem(this, slotIndex);
                     return;
                 }
-                Control.Instance.onTargetSelected = (target) => { target.poop = true; target.bonusCaptureGold = 0; target.UpdateState(); };
+                Control.Instance.onTargetSelected = (target) => { target.poop = true; target.bonusCaptureGold = 0; target.UpdateState(); SoundControl.Instance.PlaySound("Item", 3); };
                 Control.Instance.TargetItem(isWhiteTurn, false, new List<UnitType> { UnitType.Pawn, UnitType.Knight, UnitType.Bishop, UnitType.Rook, UnitType.Queen }, false, u => !u.poop, this, slotIndex, inventory);
                 break;
 
@@ -41,6 +41,7 @@ public class OptionalItemData : ItemData
                 Control.Instance.onTargetSelected = (target) =>
                 {
                     Control.Instance.MoveTo(target, target.previousPosition.x, target.previousPosition.y);
+                    SoundControl.Instance.PlaySound("Item", 4);
                 };
                 Control.Instance.TargetItem(isWhiteTurn, true, null, true, u => { return u.previousPosition != -Vector2Int.one && u.isArrested < 0; }, this, slotIndex, inventory);
                 break;
@@ -52,7 +53,7 @@ public class OptionalItemData : ItemData
                     inventory?.ReturnItem(this, slotIndex);
                     return;
                 }
-                Control.Instance.onTargetSelected = (target) => { target.isArrested = 1; target.UpdateState(); Control.Instance.UpdateCheckState(); };
+                Control.Instance.onTargetSelected = (target) => { target.isArrested = 1; target.UpdateState(); Control.Instance.UpdateCheckState(); SoundControl.Instance.PlaySound("Item", 5); };
                 Control.Instance.TargetItem(isWhiteTurn, true, new List<UnitType> { UnitType.Pawn, UnitType.Knight, UnitType.Bishop, UnitType.Rook, UnitType.Queen }, false, u => u.isArrested < 0, this, slotIndex, inventory);
                 break;
 
@@ -85,7 +86,7 @@ public class OptionalItemData : ItemData
                     inventory?.ReturnItem(this, slotIndex);
                     return;
                 }
-                Control.Instance.onTargetSelected = (target) => { target.hasCrown = true; target.UpdateState(); };
+                Control.Instance.onTargetSelected = (target) => { target.hasCrown = true; target.UpdateState(); SoundControl.Instance.PlaySound("Item", 7); };
                 Control.Instance.TargetItem(isWhiteTurn, false, new List<UnitType> { UnitType.Pawn }, false, u => !u.hasCrown, this, slotIndex, inventory);
                 break;
 

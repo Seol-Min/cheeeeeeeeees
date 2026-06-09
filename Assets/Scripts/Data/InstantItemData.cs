@@ -9,9 +9,11 @@ public class InstantItemData : ItemData
         {
             case ItemType.Reroll:
                 Shop.Instance.Reroll();
+                SoundControl.Instance.PlaySound("Item", 0);
                 break;
             case ItemType.Call:
                 Control.Instance.Call(isWhiteTurn);
+                SoundControl.Instance.PlaySound("Win", 1);
                 break;
         }
     }

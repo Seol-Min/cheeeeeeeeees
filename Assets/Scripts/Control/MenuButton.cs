@@ -13,6 +13,7 @@ public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     {
         leftBar.sprite = highlightLeft;
         rightBar.sprite = highlightRight;
+        SoundControl.Instance.PlaySound("Pause");
     }
 
     public void OnPointerExit(PointerEventData eventData)
