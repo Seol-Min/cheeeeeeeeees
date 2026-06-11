@@ -19,8 +19,8 @@ public class MainMenuManager : MonoBehaviour
         // new game
         SoundControl.Instance.PlaySound("Button");
         PlayerPrefs.SetInt("SaveExists", 1);
-        //SceneManager.LoadScene("Tutorial_Scene");
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Tutorial_Scene");
+        //SceneManager.LoadScene("GameScene");
     }
 
     public void OnSettingsButton()
