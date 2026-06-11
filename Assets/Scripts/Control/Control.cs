@@ -26,6 +26,7 @@ public class Control : MonoBehaviour
     [SerializeField] private Texture2D whiteCursor;
     [SerializeField] private Texture2D blackCursor;
     [SerializeField] public Sprite[] itemEfSprite;
+    [SerializeField] private GameObject winPanel;
 
     [Header("Player Gold")]
     [SerializeField] private PlayerGold p1Gold;
@@ -75,6 +76,7 @@ public class Control : MonoBehaviour
     public bool IsGameOver => win != -1;
     public bool IsPaused => pausePanel.activeSelf;
     public bool IsChangingTurn { get; private set; }
+    public int Win { get { return win; } }
 
     private Ray ray;
     private RaycastHit hit;
@@ -93,6 +95,7 @@ public class Control : MonoBehaviour
         //StartPlacingPhase();
         StartCoroutine(WriteStateText("백 턴 시작"));
         UpdateCursor();
+        winPanel.SetActive(false);
         pausePanel.SetActive(false);
         turnChanger.SetActive(false);
 
@@ -114,6 +117,7 @@ public class Control : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 100))
             {
                 currentHover = LookupTileIndex(hit.collider.gameObject);
+
                 if (isSummonMode)
                 {
                     int minY = summonColor == 0 ? 0 : TILE_COUNT_Y - 2;
@@ -206,11 +210,11 @@ public class Control : MonoBehaviour
         // Hold: Move the unit with the mouse
         if (Input.GetMouseButton(0) && currentlyDragging != null)
         {
-            Vector3 mouseWorld = GetMouseWorldPosition(currentlyDragging.transform.position);
-            mouseWorld.x += 0.2f;
-            mouseWorld.y -= 0.3f;
-            mouseWorld.z -= 0.01f;
-            currentlyDragging.transform.position = mouseWorld;
+            Vector3 mousePos = GetMouseWorldPosition(currentlyDragging.transform.position);
+            mousePos.x += 0.2f;
+            mousePos.y -= 0.3f;
+            mousePos.z -= 0.01f;
+            currentlyDragging.transform.position = mousePos;
         }
 
         // Button Up: Release the unit and attempt to move it to the new position
@@ -506,9 +510,7 @@ public class Control : MonoBehaviour
             if (other.data.Type == UnitType.King)
             {
                 win = un.color;
-                string winText = win == 0 ? "백 팀 승리!" : "흑 팀 승리!";
-                SoundControl.Instance.PlaySound("Win");
-                StartCoroutine(WriteStateText(winText, 10f, true));
+                winPanel.SetActive(true);
             }
 
             PlayerGold attackerGold = isWhiteTurn ? p1Gold : p2Gold;
@@ -528,15 +530,13 @@ public class Control : MonoBehaviour
         if (un.color == 0 && un.hasCrown && y == TILE_COUNT_Y - 1)
         {
             win = 0;
-            SoundControl.Instance.PlaySound("Win");
-            StartCoroutine(WriteStateText("백 팀 승리!", 10f, true));
+            winPanel.SetActive(true);
             return true;
         }
         else if (un.color == 1 && un.hasCrown && y == 0)
         {
             win = 1;
-            SoundControl.Instance.PlaySound("Win");
-            StartCoroutine(WriteStateText("흑 팀 승리!", 10f, true));
+            winPanel.SetActive(true);
             return true;
         }
 
@@ -681,18 +681,13 @@ public class Control : MonoBehaviour
 
         Destroy(tr.gameObject);
     }
-    public IEnumerator WriteStateText(string text, float duration = 2f, bool isWin = false)
+    public IEnumerator WriteStateText(string text, float duration = 2f)
     {
         statePanel.SetActive(true);
         stateText.text = text;
         yield return new WaitForSeconds(duration);
         stateText.text = "";
         statePanel.SetActive(false);
-        if (isWin)
-        {
-            yield return new WaitForSeconds(1f);
-            SceneManager.LoadScene("MainMenu");
-        }
     }
 
     // Items

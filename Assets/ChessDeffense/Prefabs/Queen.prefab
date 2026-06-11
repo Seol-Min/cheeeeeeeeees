@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4277839827391901976}
   - component: {fileID: 6571624901632350230}
   - component: {fileID: 7057311256024076604}
+  - component: {fileID: 7222637365790561298}
   m_Layer: 0
   m_Name: Queen
   m_TagString: Untagged
@@ -113,8 +114,9 @@ MonoBehaviour:
   poop: 0
   isArrested: -1
   hasCrown: 0
-  data: {fileID: 11400000, guid: de4763ec6305dfe499520f34a96a2130, type: 2}
   isDragging: 0
+  data: {fileID: 11400000, guid: de4763ec6305dfe499520f34a96a2130, type: 2}
+  currentBubble: {fileID: 0}
 --- !u!95 &7057311256024076604
 Animator:
   serializedVersion: 7
@@ -137,3 +139,49 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &7222637365790561298
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203985534825718776}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.25}
+    oldSize: {x: 1, y: 1.1875}
+    newSize: {x: 1, y: 1.1875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.982, y: 0.962}
+  m_EdgeRadius: 0
